@@ -1,0 +1,70 @@
+/// 
+/// Flexible Content
+/// 
+
+@import 'fc-tab-scrollbar';
+
+body.fc-overlap {
+	.fc-layout:first-child {
+		padding-top: var(--fl1-spacing-sm);
+
+		&:before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 108px;
+			background: var(--fl1-primary);
+			z-index: 0;
+		}
+
+		.fc-layout-container { 
+			background: none;
+		}
+	}
+
+	section.avb {
+		.avb-banners {
+			.avb-banner {
+				&:after { 
+					background: var(--fl1-primary);
+				}
+			}
+		}
+	}
+}
+
+.flexible__content {
+	position: relative;
+	z-index: 1;
+
+	@import 'fc-global';
+	@import 'layouts/fc-accordion';
+	@import 'layouts/fc-buttons';
+	@import 'layouts/fc-call-to-action';
+	@import 'layouts/fc-carousel';
+	@import 'layouts/fc-case-studies';
+	@import 'layouts/fc-column-boxes';
+	@import 'layouts/fc-contact';
+	@import 'layouts/fc-feature';
+	@import 'layouts/fc-feature-boxes';
+	@import 'layouts/fc-feature-tabs';
+	@import 'layouts/fc-gallery';
+	@import 'layouts/fc-grid-boxes';
+	@import 'layouts/fc-grid-links';
+	@import 'layouts/fc-hexagon-grid';
+	@import 'layouts/fc-icon-grid';
+	@import 'layouts/fc-masonry';
+	@import 'layouts/fc-steps';
+	@import 'layouts/fc-table';
+	@import 'layouts/fc-tabs';
+	@import 'layouts/fc-team';
+	@import 'layouts/fc-team-popup';
+	@import 'layouts/fc-testimonials';
+	@import 'layouts/fc-timeline';
+	@import 'layouts/fc-travel-guides';
+	@import 'layouts/fc-video';
+}
+
+@import 'layouts/fc-free-text';
