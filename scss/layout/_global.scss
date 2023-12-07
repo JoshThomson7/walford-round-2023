@@ -1,6 +1,6 @@
 /// Global
 body {
-	font-family: var(--fl1-primary-font);
+	font-family: $textFont;
 	font-size: var(--fl1-base-font-size);
 	font-weight: 400;
 	color: var(--fl1-text);
@@ -50,7 +50,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: var(--fl1-primary-font);
+	font-family: $primaryFont;
 	line-height: 1.4;
 }
 
@@ -63,7 +63,7 @@ a {
 
 img {
 	max-width: 100%;
-	width: auto\9;
+	width: auto;
 	height: auto;
 	vertical-align: middle;
 	border: 0;
@@ -71,7 +71,7 @@ img {
 }
 
 .max__width {
-	max-width: 1200px;
+	max-width: 1400px;
 	margin: 0 auto;
 	width: 100%;
 	padding: 0 20px;
@@ -123,10 +123,10 @@ img {
  * Buttons
  */
 .button {
-	font-family: var(--fl1-primary-font);
+	font-family: $boldTextFont;
 	font-weight: bold;
-	font-size: 14px;
-	padding: 12px 24px;
+	font-size: 16px;
+	padding: 15px 28px;
 	display: flex;
 	box-shadow: none;
 	transform: scale3d(1, 1, 1);
@@ -137,7 +137,6 @@ img {
 	cursor: pointer;
 	line-height: 1;
 	transition: all 0.3s ease;
-	border-radius: 50px;
 
 	i {
 		color: #fff;
@@ -146,8 +145,7 @@ img {
 	}
 
 	&:hover {
-		transition: all 0.3s ease;
-		transform: scale3d(1.02, 1.02, 1.02);
+		background: #000; transition: .5s ease all;
 	}
 
 	&.small {
@@ -167,6 +165,10 @@ img {
 	&.primary {
 		background: var(--fl1-primary);
 		color: #fff;
+
+		&:hover {
+			background: #000; transition: .5s ease all;
+		}
 
 		&.border {
 			background: transparent;

@@ -7,7 +7,7 @@ header.header {
     width: 100%;
 	position: relative;
 	z-index: 2;
-    background: $primary;
+    background: #000;
 
     .header--site__wide__notice {
         padding: 10px 0;
@@ -54,7 +54,7 @@ header.header {
             }
 
             .logo {
-                width: 80px;
+                width: 270px;
                 transition: all 0.4s ease;
                 margin-right: var(--fl1-spacing-xs);
             }

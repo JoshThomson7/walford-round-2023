@@ -40,7 +40,7 @@ $full_width = $styles['fc_full_width'] == true ? true : false;
 
 		<img src="https://www.readez.co.uk/themes/readez-2023/img/avb-circles.svg" />
 
-        <div class="cta__overlay" style="background: linear-gradient(331deg, rgb(0, 21, 73) 21%, rgb(71, 32, 85) 82%, rgb(125, 48, 138) 96%); opacity: <?php the_sub_field('cta_overlay_opacity'); ?>"></div>
-        <div class="cta__image<?php echo $parallax; ?>"<?php echo $bk_img; ?>></div>
+        <div class="cta__overlay" style="background: linear-gradient(331deg, rgb(0, 0, 0) 21%, rgb(0, 0, 0) 82%, rgb(0, 0, 0) 96%); opacity: <?php the_sub_field('cta_overlay_opacity'); ?>"></div>
+        <div class="cta__image<?php echo $parallax; ?>"<?php echo $bk_img; ?>></div> 
         <?php if($full_width): ?></div><?php endif; ?>
     </div><!-- cta__wrapper -->

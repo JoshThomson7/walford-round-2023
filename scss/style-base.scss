@@ -48,21 +48,46 @@
 @import 'layout/footer';
 @import 'inc/themes';
 
+.ticker-container {
+  background: $primary; padding: 10px 0;
+
+  .ticker{
+    white-space: nowrap; animation: scrollTicker 25s linear infinite;
+
+    p{color: $text; font-family: $boldTextFont;}
+  }
+}
+
+@keyframes scrollTicker {
+  from {
+      transform: translateX(100%);
+  }
+  to {
+      transform: translateX(-50%);
+  }
+}
+
 .free-primary{
   padding: 20px 10px; background: $primary; color: white!important; border-radius: 16px
+}
+
+.home{
+  .fc_grid_boxes{
+    background-image: url(img/fancy-cushion.webp); background-repeat: repeat;
+  }
 }
 
 .social-icons{
   display: flex;
     
-      li {
+    li {
 
-          a {
-              i{color: #fff; font-size: 26px; margin-right: 20px;}
+        a {
+            i{color: #fff; font-size: 26px; margin-right: 20px;}
 
-              &:hover{
-                i{color: $secondary;}
-              }
-          }
-      }
-  }
+            &:hover{
+              i{color: $secondary;}
+            }
+        }
+    }
+}

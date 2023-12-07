@@ -21,8 +21,15 @@ nav.mega-menu {
                 padding: var(--fl1-spacing-sm) var(--fl1-spacing-xs);
                 display: block;
                 position: relative;
-                border-radius: var(--fl1-radius-sm) var(--fl1-radius-sm) 0 0;
                 transition: all 0.1s ease;
+            }
+
+            &:last-child{
+                a{background: $primary; padding: var(--fl1-spacing-sm)}
+
+                &:hover{
+                    a{color: #000;}
+                }
             }
 
             &.current-page { 
@@ -33,7 +40,7 @@ nav.mega-menu {
 
             &:hover {
                 a {
-                    color: $secondary;
+                    color: $primary;
                 }
             }
 

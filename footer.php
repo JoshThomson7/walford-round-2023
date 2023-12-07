@@ -18,33 +18,17 @@
 					</article>
 
 				<?php endwhile; ?>
+			</div>
+		</div>
 
-				<article class="footer__menu footer__details">
-					<h5>Contact <i class="fas fa-chevron-down"></i></h5>
-					<ul>
-						<li>
-							<i class="fa-light fa-location-dot"></i>
-							21 Cross Square,<br> Wakefield<br> WF1 1PQ
-						</li>
-						<li><i class="fa-light fa-phone"></i> 01924 373 697</li>
-						<li><i class="fa-light fa-envelope"></i> info@pollardsopticians.co.uk</li>
-					</ul>
-				</article>
-
-				<article class="footer__menu footer__social">
-					<h5>Social <i class="fas fa-chevron-down"></i></h5>
-					<ul>
-						<li><a href="https://www.facebook.com/pollardsopticianswakefield/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
-						<li><a href="https://uk.linkedin.com/in/pollards-opticians-66716ba7" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
-						<li><a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fpollardsopti" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
-						<li><a href="https://www.instagram.com/pollards.opticians" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-					</ul>
-				</article>
-
-				<article class="footer__menu footer_qr">
-					<h5>Instagram QR <i class="fas fa-chevron-down"></i></h5>
-					<img src="<?php echo esc_url(get_stylesheet_directory_uri().'/img/pollards-qr.png'); ?>" alt="<?php bloginfo('name'); ?>"/>
-				</article>
+		<div class="subfooter footer__social">
+			<div class="max__width">
+				<ul>
+					<li><a href="" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+					<li><a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+					<li><a href="" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
+					<li><a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+				</ul>
 			</div>
 		</div>
 	</footer>

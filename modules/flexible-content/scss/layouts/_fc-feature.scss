@@ -33,8 +33,6 @@ Feature
                 }
             }
             
-            img { border-radius: 16px;}
-
             &:hover {
                 a {
                     figure { transition:all .4s ease; transform:scale(1.2);}
@@ -47,8 +45,8 @@ Feature
             @include breakpoint(grandmabear) { border-left: 20px solid transparent;}
             @include breakpoint(brotherbear) { width:100%; border-left: none;}
 
-            h3 { font-weight: 700; line-height: 34px; font-size: 24px; color: var(--fl1-text); margin-bottom: 20px;}
-            h5 { font-size: 13px; font-weight: 600; margin-bottom: 0; color: var(--fl1-primary); text-transform: uppercase; line-height: normal; letter-spacing: 1px;}
+            h3 { font-size: 28px; font-weight: 700; line-height: 44px; color: var(--fl1-text); margin-bottom: 20px;}
+            h5 { font-size: 15px; font-weight: 600; margin-bottom: 10px; color: var(--fl1-primary); text-transform: uppercase; line-height: normal; letter-spacing: 1px;}
 
 			li, p {
 				font-size: var(--fl1-font-xs);

@@ -201,6 +201,54 @@
       "oAP" : "\/core\/fl1-helpers.php",
       "oF" : 0
     },
+    "\/fonts\/_objectivity\/Objectivity-Bold.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/_objectivity\/Objectivity-Bold.woff",
+      "oF" : 0
+    },
+    "\/fonts\/_objectivity\/Objectivity-Bold.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/_objectivity\/Objectivity-Bold.woff2",
+      "oF" : 0
+    },
+    "\/fonts\/_objectivity\/Objectivity-Medium.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/_objectivity\/Objectivity-Medium.woff",
+      "oF" : 0
+    },
+    "\/fonts\/_objectivity\/Objectivity-Medium.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/_objectivity\/Objectivity-Medium.woff2",
+      "oF" : 0
+    },
+    "\/fonts\/_objectivity\/Objectivity-Regular.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/_objectivity\/Objectivity-Regular.woff",
+      "oF" : 0
+    },
+    "\/fonts\/_objectivity\/Objectivity-Regular.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/_objectivity\/Objectivity-Regular.woff2",
+      "oF" : 0
+    },
     "\/fonts\/fa\/fa-brands-400.ttf" : {
       "cB" : 0,
       "ft" : 8192,
@@ -247,6 +295,54 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/fonts\/fa\/fa-light-300.woff2",
+      "oF" : 0
+    },
+    "\/fonts\/fenice\/fenice-bold.otf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/fenice\/fenice-bold.otf",
+      "oF" : 0
+    },
+    "\/fonts\/fenice\/fenice-bold.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/fenice\/fenice-bold.woff",
+      "oF" : 0
+    },
+    "\/fonts\/fenice\/fenice-bold.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/fenice\/fenice-bold.woff2",
+      "oF" : 0
+    },
+    "\/fonts\/fenice\/fenice-regular..otf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/fenice\/fenice-regular..otf",
+      "oF" : 0
+    },
+    "\/fonts\/fenice\/fenice-regular.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/fenice\/fenice-regular.woff",
+      "oF" : 0
+    },
+    "\/fonts\/fenice\/fenice-regular.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/fenice\/fenice-regular.woff2",
       "oF" : 0
     },
     "\/fonts\/mont\/Mont-Bold.woff" : {
@@ -313,54 +409,6 @@
       "oAP" : "\/fonts\/mont\/Mont-SemiBold.woff2",
       "oF" : 0
     },
-    "\/fonts\/objectivity\/Objectivity-Bold.woff" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/fonts\/objectivity\/Objectivity-Bold.woff",
-      "oF" : 0
-    },
-    "\/fonts\/objectivity\/Objectivity-Bold.woff2" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/fonts\/objectivity\/Objectivity-Bold.woff2",
-      "oF" : 0
-    },
-    "\/fonts\/objectivity\/Objectivity-Medium.woff" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/fonts\/objectivity\/Objectivity-Medium.woff",
-      "oF" : 0
-    },
-    "\/fonts\/objectivity\/Objectivity-Medium.woff2" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/fonts\/objectivity\/Objectivity-Medium.woff2",
-      "oF" : 0
-    },
-    "\/fonts\/objectivity\/Objectivity-Regular.woff" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/fonts\/objectivity\/Objectivity-Regular.woff",
-      "oF" : 0
-    },
-    "\/fonts\/objectivity\/Objectivity-Regular.woff2" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/fonts\/objectivity\/Objectivity-Regular.woff2",
-      "oF" : 0
-    },
     "\/footer.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -413,6 +461,17 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/img\/fancy-cushion.webp" : {
+      "ft" : 8388608,
+      "iS" : 976,
+      "oA" : 0,
+      "oAP" : "\/img\/fancy-cushion.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/img\/ISO-Inverted.png" : {
       "ft" : 32768,
       "iS" : 28853,
@@ -426,21 +485,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/img\/logo.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/img\/logo.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/img\/pollards-qr.png" : {
+    "\/img\/logo_white.png" : {
       "ft" : 32768,
-      "iS" : 251965,
+      "iS" : 12187,
       "oA" : 0,
-      "oAP" : "\/img\/pollards-qr.png",
+      "oAP" : "\/img\/logo_white.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -3520,7 +3569,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 652874357.77309203,
-    "displayValue" : "pollards-2023",
+    "displayValue" : "walford-round-2023",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-koamaru",
     "iconImageWasSetByUser" : 0

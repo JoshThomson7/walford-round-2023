@@ -45,6 +45,7 @@
         font-size: var(--fl1-font-xxl);
         color: var(--fl1-text);
         margin-bottom: var(--fl1-spacing-sm);
+        font-family: $textFont;
     }
 
     p {
@@ -96,7 +97,7 @@
     &.centred {
         .fc-layout-heading-left {
             align-items: center;
-            max-width: 960px;
+            max-width: 1000px;
             margin: 0 auto;
 			width: 100%;
             h2 {
@@ -152,6 +153,7 @@
 /// Background colours
 $fc_bk_colours: (
     white: #fff,
+    black: #000,
     primary: $primary,
     secondary: $secondary,
     tertiary: $tertiary,
@@ -180,7 +182,7 @@ $fc_bk_colours: (
             .fc-layout-heading {
                 h2,
                 p {
-                    color: #fff;
+                    color: #000;
                 }
             }
 
@@ -248,8 +250,17 @@ $fc_bk_colours: (
             .fc-free-text{
                 p{color: #fff;}
             }
-        } @else if $key == white {
+        } @else if $key == black {
+            .fc-layout-heading {
+                h2,
+                p {
+                    color: #fff;
+                }
+            }
 
+            .fc-free-text{
+                p{color: #fff;}
+            }
         }
     }
 }

@@ -141,7 +141,7 @@ footer {
     }
 
     .footer__menus {
-        padding: 56px 0 40px;
+        padding: 50px 0; background: #000;
 
         @include breakpoint(papabear) {
             padding: 0;
@@ -157,6 +157,11 @@ footer {
         article {
             width: 25%;
 
+            @include breakpoint(papabear) {
+                width: 100%;
+                border-bottom: 1px rgba(255, 255, 255, 0.1) solid;
+            }
+
             &.align-right {
                 text-align: right;
             }
@@ -165,29 +170,6 @@ footer {
                 @include breakpoint(1024px){margin-top: 30px;}
 
                 img{max-width: 160px;}
-            }
-
-            &.footer__social { 
-    
-                ul { 
-                    display: flex;
-    
-                    li {
-
-                        a {
-                            i{color: #fff; font-size: 26px; margin-right: 20px;}
-                        }
-                    }
-                }
-            }
-
-            &.footer_qr{
-                img{max-width: 120px;}
-            }
-
-            @include breakpoint(papabear) {
-                width: 100%;
-                border-bottom: 1px rgba(255, 255, 255, 0.1) solid;
             }
 
             figure { 
@@ -267,8 +249,7 @@ footer {
                         font-size: 14px;
                         color: #fff;
                         &:hover {
-                            color: var(--fl1-white);
-                            opacity: 1;
+                            color: $primary;
                         }
                     }
                 }
@@ -290,7 +271,7 @@ footer {
 
         .max__width {
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
             border-top: 1px rgba(255, 255, 255, 0.1) solid;
             padding: 32px 0;
@@ -299,45 +280,17 @@ footer {
                 flex-direction: column;
             }
 
-            .subfooter--left {
+            ul { 
                 display: flex;
-                align-items: center;
-                @include breakpoint(papabear) {
-                    flex-direction: column;
-                    margin-bottom: 20px;
-                    text-align: center;
-                }
-            }
 
-            .subfooter--right {
-                display: flex;
-                justify-content: flex-end;
-                align-content: center;
-                @include breakpoint(papabear) {
-                    padding-right: 0;
-                }
-            }
+                li {
+                    padding: 0 20px;
 
-            figure {
-                max-width: 260px;
-                width: 100%;
-                margin-right: 20px;
-                @include breakpoint(papabear) {
-                    margin-right: 0;
-                }
-            }
-
-            small {
-                font-size: 12px;
-                color: var(--fl1-white);
-                @include breakpoint(papabear) {
-                    margin-right: 0;
-                }
-                a {
-                    color: var(--fl1-white);
-                    font-size: 12px;
-
-                    &:hover{color: $primary;}
+                    a {
+                        i{color: #fff; font-size: 30px; margin-right: 20px;
+                            &:hover{color: #000;}
+                        }
+                    }
                 }
             }
         }
