@@ -71,7 +71,7 @@ section.avb {
 				}
 
 				.avb-banner__caption-wrap {
-					width: 40%;
+					width: 50%;
 					@include breakpoint(1000px){width: 100%;}
 
 					figure {
@@ -326,7 +326,6 @@ section.avb {
 					height: 15px;
 					border: none;
 					cursor: pointer;
-					border-radius: 50%;
 					background: $border;
 					box-shadow: 0 0 0 0 transparent;
 					vertical-align: middle;
@@ -372,7 +371,7 @@ section.avb {
 			.slick-dots {
 				left: 0;
 				justify-content: flex-start;
-				padding-left: calc((100vw - 1180px) / 2);
+				padding-left: calc((100vw - 1380px) / 2);
 				@include breakpoint(1000px){left: 20px; bottom: 0px;}
 				@include breakpoint(800px){left: 0;}
 
