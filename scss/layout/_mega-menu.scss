@@ -24,14 +24,6 @@ nav.mega-menu {
                 transition: all 0.1s ease;
             }
 
-            &:last-child{
-                a{background: $primary; padding: var(--fl1-spacing-sm)}
-
-                &:hover{
-                    a{color: #000;}
-                }
-            }
-
             &.current-page { 
                 a {
                     color: var(--fl1-primary);
