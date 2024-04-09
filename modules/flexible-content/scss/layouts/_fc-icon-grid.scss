@@ -77,8 +77,9 @@ Icon Grid
             }
 
             .icon-grid__content {
+                margin-top: 20px;
 
-                h4 { font-size: 21px; color: var(--fl1-text); line-height: 29px; font-weight: 700;}
+                h4 { font-size: 24px; color: var(--fl1-text); line-height: 29px; font-weight: 700; margin-bottom: 20px;}
                 p { font-size: 16px; line-height: 23px; color: var(--fl1-text-light);
                     &:last-of-type { margin-bottom: 0;}
                 }

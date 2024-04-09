@@ -58,6 +58,10 @@ Feature
 				a { 
 					color: var(--fl1-primary);
 					font-weight: 600;
+
+                    &.button{
+                        display: inline-block; color: white;
+                    }
 				}
 			
 				strong {

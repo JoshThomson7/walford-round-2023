@@ -24,10 +24,10 @@
 		<div class="subfooter footer__social">
 			<div class="max__width">
 				<ul>
-					<li><a href="" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
-					<li><a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
-					<li><a href="" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
-					<li><a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+					<li><a href="https://www.facebook.com/Walford.and.Round.Opticians/?locale=en_GB" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+					<li><a href="https://uk.linkedin.com/company/walford-&-round" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+					<li><a href="https://twitter.com/walfordandround?lang=en" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
+					<li><a href="https://www.instagram.com/walford_and_round_opticians/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
 				</ul>
 			</div>
 		</div>
