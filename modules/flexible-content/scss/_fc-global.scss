@@ -102,6 +102,7 @@
 			width: 100%;
             h2 {
                 max-width: 80%;
+                @include breakpoint(800px){max-width: 100%;}
                 &:after {
                     margin: 20px auto;
                 }

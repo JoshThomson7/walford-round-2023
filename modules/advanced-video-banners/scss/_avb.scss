@@ -41,7 +41,7 @@ section.avb {
 			position: relative;
 			display: flex;
 			align-items: center;
-			min-height: 280px;
+			min-height: 400px;
 			-webkit-backface-visibility: hidden;
 			backface-visibility: hidden;
 			transform: translateZ(0) scale(1, 1);
@@ -72,7 +72,7 @@ section.avb {
 
 				.avb-banner__caption-wrap {
 					width: 50%;
-					@include breakpoint(1000px){width: 100%;}
+					@include breakpoint(1000px){width: 100%; padding-right: 10px;}
 
 					figure {
 						margin-bottom: 20px;
@@ -152,12 +152,8 @@ section.avb {
 						transform: translateX(100px);
 						transition: all 0.8s ease;
 
-						@include breakpoint(cousinbear) {
-							transform: translateX(90px) scale(1.3);
-						}
-
-						@include breakpoint(mamabear) {
-							transform: translateX(100px) scale(1.3);
+						@include breakpoint(1000px){
+							transform: none;
 						}
 
 						@include breakpoint(teenbear) {
@@ -369,16 +365,13 @@ section.avb {
 
 		&.avb-dots-left {
 			.slick-dots {
-				left: 0;
+				left: 15px;
 				justify-content: flex-start;
 				padding-left: calc((100vw - 1380px) / 2);
-				@include breakpoint(1000px){left: 20px; bottom: 0px;}
-				@include breakpoint(800px){left: 0;}
+				@include breakpoint(1000px){left: 20px; bottom: 10px;}
 
 				@include breakpoint(cousinbear) {
-					all: none;
-					width: 100%;
-					justify-content: center;
+					left: 10px;
 				}
 			}
 		}
